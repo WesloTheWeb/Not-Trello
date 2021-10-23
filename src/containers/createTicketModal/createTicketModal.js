@@ -10,7 +10,10 @@ const CreateTicketModal = (props) => {
     const { isModal } = useContext(ModalContext);
 
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
+    const onSubmit = data => {
+        console.log(data);
+        handleClose();
+    }
 
     const handleClose = () => {
         return isModal(false);
