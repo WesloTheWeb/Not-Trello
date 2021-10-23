@@ -17,8 +17,39 @@
     text-align: center;
 }
 
-.modalContainer input {
+.modalContainer input, textarea {
     display: block;
+    width: 100%;
+    resize: none;
+}
+
+.modalContainer textarea {
+    padding: 3rem0;
+    padding-top: 0;
+    height: 8rem;
+ }
+
+.modalCTAContainer {
+    display: flex;
+    justify-content: right;
+    flex-direction: row-reverse;
+}
+
+.modalCTAContainer button {
+    margin: 0 .5rem;
+}
+
+.modalCTAContainer button:first-child {
+    background-color: var(--new);
+    color: var(--white);
+}
+
+.modalCTAContainer button:first-child:hover {
+    background-color: #00563B;
+}
+
+.fieldLabel {
+    margin: 1rem 0;
 }
 
 .closeButton {
@@ -29,3 +60,4 @@
 .closeButton:hover {
     cursor: pointer;
 }
+
