@@ -1,0 +1,63 @@
+.modalContainer {
+    z-index: 10;
+    background-color: var(--white);
+    padding: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 15px;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 10rem;
+}
+
+.modalContainer h2 {
+    text-align: center;
+}
+
+.modalContainer input, textarea {
+    display: block;
+    width: 100%;
+    resize: none;
+}
+
+.modalContainer textarea {
+    padding: 3rem0;
+    padding-top: 0;
+    height: 8rem;
+ }
+
+.modalCTAContainer {
+    display: flex;
+    justify-content: right;
+    flex-direction: row-reverse;
+}
+
+.modalCTAContainer button {
+    margin: 0 .5rem;
+}
+
+.modalCTAContainer button:first-child {
+    background-color: var(--new);
+    color: var(--white);
+}
+
+.modalCTAContainer button:first-child:hover {
+    background-color: #00563B;
+}
+
+.fieldLabel {
+    margin: 1rem 0;
+}
+
+.closeButton {
+    background-color: #AA0000;
+    color: var(--white);
+}
+
+.closeButton:hover {
+    cursor: pointer;
+}
+
