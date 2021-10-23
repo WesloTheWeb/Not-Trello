@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import CreateTicketModal from '../../containers/CreateTicketModal/CreateTicketModal';
 import classes from './BoardButton.module.css';
 
 const { createTicket } = classes;
