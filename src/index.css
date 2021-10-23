@@ -2,6 +2,7 @@
   --backgroundColor: #282C34;
   --chillyBlue: #61DAFB;
   --white: #FFF;
+  --new: #17B169;
 }
 
 body {
@@ -20,4 +21,17 @@ code {
   src: local("MotionPersonalUseBold"),
    url("./assets/fonts/MotionPersonalUseBold.ttf") format("truetype");
   font-weight: bold;
+}
+
+button {
+  padding: 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+button:hover {
+  border: none;
+  cursor: pointer;
+  /* filter: invert(100%); */
 }

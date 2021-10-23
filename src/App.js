@@ -4,12 +4,10 @@ import Board from './containers/Board/Board';
 
 function App() {
   return (
-    <>
       <div className="App">
         <Header />
+        <Board />
       </div>
-      <Board />
-    </>
   );
 }
 

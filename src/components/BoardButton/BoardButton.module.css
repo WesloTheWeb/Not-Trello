@@ -1,0 +1,10 @@
+.createTicket {
+    background-color: var(--new);
+    color: var(--white);
+    border: none;
+}
+
+.createTicket:hover {
+    color: #FCFCFC;
+    background-color: #00563B;
+}
