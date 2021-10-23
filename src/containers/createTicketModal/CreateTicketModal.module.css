@@ -20,3 +20,12 @@
 .modalContainer input {
     display: block;
 }
+
+.closeButton {
+    background-color: #AA0000;
+    color: var(--white);
+}
+
+.closeButton:hover {
+    cursor: pointer;
+}

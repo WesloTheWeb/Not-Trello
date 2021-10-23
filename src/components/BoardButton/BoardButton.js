@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
-import CreateTicketModal from '../../containers/CreateTicketModal/CreateTicketModal';
+import React, { useContext } from 'react';
+import { ModalContext } from '../../Contexts/ModalContext';
 import classes from './BoardButton.module.css';
 
 const { createTicket } = classes;
 
 const BoardButton = ({ name }) => {
 
+    const {isModal} = useContext(ModalContext);
+
     const handleClick = () => {
-        console.log('Clicked');
+        return isModal(true);
     }
 
     return (
