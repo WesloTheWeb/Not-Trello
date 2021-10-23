@@ -1,0 +1,10 @@
+.title {
+    font-family: 'MotionPersonalUseBold', sans-serif;
+    font-size: 5rem;
+    margin: .15rem auto;
+}
+
+.titleContainer {
+    color: var(--white);
+    text-align: center;
+}

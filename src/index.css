@@ -1,13 +1,23 @@
+:root {
+  --backgroundColor: #282C34;
+  --chillyBlue: #61DAFB;
+  --white: #FFF;
+}
+
 body {
+  background-color: var(--backgroundColor);
+  font-size: 1rem;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "MotionPersonalUseBold";
+  src: local("MotionPersonalUseBold"),
+   url("./assets/fonts/MotionPersonalUseBold.ttf") format("truetype");
+  font-weight: bold;
 }

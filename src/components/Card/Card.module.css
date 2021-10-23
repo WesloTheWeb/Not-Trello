@@ -1,0 +1,19 @@
+.cardContainer {
+    background-color: var(--white);
+    border: 4.5px solid #FAB10F;
+    border-radius: 10px;;
+    padding: .25rem 1.5rem;
+    min-width: 0;
+    min-height: 0;
+}
+
+.cardContainer h2 {
+    color: #2970FF;
+    text-transform: capitalize;
+}
+
+.cardTitleFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}

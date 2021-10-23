@@ -1,0 +1,14 @@
+.controls {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.controls svg {
+    margin: 1rem 0 0 .75rem; 
+}
+
+.controls svg:hover {
+    cursor: pointer;
+    border-bottom: 2px solid var(--chillyBlue);
+    opacity: .85;
+}
