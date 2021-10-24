@@ -4,7 +4,7 @@ import classes from './Card.module.css';
 
 const { cardContainer, cardTitleFlex } = classes;
 
-const Card = ({ title }) => {
+const Card = ({ title, description }) => {
     return (
         <div className={cardContainer}>
             <div className={cardTitleFlex}>
@@ -12,7 +12,7 @@ const Card = ({ title }) => {
                 <CardControls />
             </div>
             <p>
-                Scuttle rigging scurvy cog lee nipper Letter of Marque transom Buccaneer Privateer...
+               {description.slice(0, 100) + '...'}
             </p>
         </div>
     );

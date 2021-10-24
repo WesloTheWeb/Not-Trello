@@ -7,3 +7,10 @@
     padding: 1.5rem;
     margin: 2rem 0;
 }
+
+.boardLayout .label {
+    text-transform: uppercase;
+    text-align: center;
+    color: #0E00A6;
+    border-bottom: 1px solid #000;
+}
