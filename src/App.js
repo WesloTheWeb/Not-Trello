@@ -10,9 +10,12 @@ function App() {
 
   const [modal, isModal] = useState(false);
 
+
+
   return (
     <div className="App">
-      <ModalContext.Provider value={{modal, isModal}}>
+      {process.env.NODE_ENV === 'development' ? process.env.REACT_APP_DEV_MODE : process.env.REACT_APP_PRO_MODE}
+      <ModalContext.Provider value={{ modal, isModal }}>
         <Header />
         <Board />
         {modal ?
@@ -20,7 +23,9 @@ function App() {
         }
       </ModalContext.Provider>
       <Footer />
+
     </div>
+
   );
 }
 
